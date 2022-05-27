@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "e0f0fb7b-6bbe-4de9-9a8c-7ec12d670476",
+		"name": "Cash",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://3bdca89d-c388-4a7a-93f4-bbf0c439c469.mock.pstmn.io/getProjectedValues",
+					"protocol": "https",
+					"host": [
+						"3bdca89d-c388-4a7a-93f4-bbf0c439c469",
+						"mock",
+						"pstmn",
+						"io"
+					],
+					"path": [
+						"getProjectedValues"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://3bdca89d-c388-4a7a-93f4-bbf0c439c469.mock.pstmn.io/getProjectedValues",
+							"protocol": "https",
+							"host": [
+								"3bdca89d-c388-4a7a-93f4-bbf0c439c469",
+								"mock",
+								"pstmn",
+								"io"
+							],
+							"path": [
+								"getProjectedValues"
+							]
+						}
+					},
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"error\": null, \n    \"data\": {\n        \"title\": \"Projected Values\", \n        \"values\": [\n            {\n                \"name\": \"2020\", \n                \"pv\": 200000,\n                \"target_val\": 800000,\n                \"expected_val\": 600000\n            },\n            {\n                \"name\": \"2021\", \n                \"pv\": 300000,\n                \"target_val\": 400000,\n                \"expected_val\": 300000\n            },{\n                \"name\": \"2022\", \n                \"pv\": 600000,\n                \"target_val\": 500000,\n                \"expected_val\": 600000\n            },\n            {\n                \"name\": \"2023\", \n                \"pv\": 200000,\n                \"target_val\": 300000,\n                \"expected_val\": 400000\n            },\n            {\n                \"name\": \"2023\", \n                \"pv\": 500000,\n                \"target_val\": 100000,\n                \"expected_val\": 800000\n            }\n        ]\n    }\n}"
+				}
+			]
+		}
+	]
+}

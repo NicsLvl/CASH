@@ -1,0 +1,17 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Volumes": [
+    {
+      "HostDirectory": "/var/log/app",
+      "ContainerDirectory": "/var/log/app"
+    }
+  ],
+  "Ports": [
+    {
+      "ContainerPort": "5000"
+    }
+  ],
+  "Image": {
+    "Name": "867896627554.dkr.ecr.ap-southeast-1.amazonaws.com/cash-app-backend_web:4ec1404"
+  }
+}
